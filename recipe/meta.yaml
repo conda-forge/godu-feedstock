@@ -1,5 +1,5 @@
 {% set name = "godu" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/viktomas/godu/archive/v{{ version }}.tar.gz
-  sha256: fd198564b8f4e779fbb41a339d9560405d9970787c723d113dbf88f8d6e3e258
+  sha256: 09869710652969b8a9d227dea4ac33893b1f538197b101affa6a8a9aa6a50474
 
 build:
   number: 0
